@@ -1,3 +1,5 @@
+'use client'
+
 import Image from 'next/image'
 
 interface TimelineItemProps {
@@ -9,7 +11,7 @@ interface TimelineItemProps {
 
 export function TimelineItem({ year, event, image, index }: TimelineItemProps) {
   const isEven = index % 2 === 0
-  const imageSrc = image && image.trim() ? image : "/placeholder.jpg"
+  const imageSrc = (image && typeof image === 'string' && image.trim()) ? image : "/placeholder.jpg"
 
   return (
     <div
@@ -18,8 +20,8 @@ export function TimelineItem({ year, event, image, index }: TimelineItemProps) {
       {/* Left/Right Content */}
       <div className="flex-1 flex items-center">
         <div className="glass p-6 rounded-lg neon-border w-full">
-          <p className="text-3xl font-bold text-primary mb-2">{year}</p>
-          <p className="text-foreground/80 text-lg">{event}</p>
+          <p className="text-3xl font-bold text-primary mb-2">{String(year)}</p>
+          <p className="text-foreground/80 text-lg">{String(event)}</p>
         </div>
       </div>
 
@@ -34,7 +36,7 @@ export function TimelineItem({ year, event, image, index }: TimelineItemProps) {
         <div className="rounded-lg overflow-hidden neon-border w-full">
           <Image
             src={imageSrc}
-            alt={event}
+            alt={String(event)}
             width={400}
             height={160}
             className="w-full h-auto object-cover"

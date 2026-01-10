@@ -9,15 +9,11 @@ export async function loadJSON(filename: string) {
       const fileContents = fs.readFileSync(filePath, 'utf8')
       const parsed = JSON.parse(fileContents)
 
-      // Ensure we return the parsed object/array, not a string
-      if (typeof parsed === 'string') {
-        return JSON.parse(parsed)
-      }
-
-      return parsed
+      // Deep clone to ensure no non-serializable objects
+      return JSON.parse(JSON.stringify(parsed))
     } catch (error) {
       console.error(`Error loading ${filename}:`, error)
-      throw error
+      return null
     }
   }
 
@@ -38,7 +34,7 @@ export async function loadJSON(filename: string) {
     return await response.json()
   } catch (error) {
     console.error(`Error fetching ${filename}:`, error)
-    throw error
+    return null
   }
 }
   })
