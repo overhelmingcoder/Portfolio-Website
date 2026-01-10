@@ -45,7 +45,7 @@
     "description": "A responsive personal portfolio website built with React and Tailwind CSS. Showcases projects, blogs, achievements, and skills with a modern design and smooth user experience.",
     "tech": ["React", "Tailwind CSS", "JavaScript"],
     "image": "/PORTFLIO.jpg",
-    "github": "https://github.com/overhelmingcoder/portfolio"
+    "github": "https://github.com/overhelmingcoder/Portfolio-Website"
   },
   {
     "title": "Smart Health Tracker",
