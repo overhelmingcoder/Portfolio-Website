@@ -1,0 +1,30 @@
+{
+  "name": "Mahathir Khandaker",
+  "title": "Electronics & Communication Engineering Student",
+  "tagline": "Aspiring Cybersecurity Professional • Full-Stack Web Developer • BSc ETE Undergrad ",
+  "description": "I am an Electronics and Communication Engineering student with a strong passion for hacking, coding, and building things that push boundaries. I love breaking systems to understand their weaknesses and building systems to make them stronger.",
+  "skills": [
+    "Penetration Testing",
+    "Python & C++ ",
+    "Web Development",
+    "Networking",
+    "CTF Problem Solving"
+  ],
+  "passion": "breaking systems, building systems",
+  "education": "BSc in Electronics & Communication Engineering — CUET",
+  "accomplishments": [
+    "Google Cybersecurity Professional",
+    "5+ CTF Competitions",
+    "Built 10+ Projects",
+    "Solved 100+ room on TryHackMe",
+    "Machine Learning Enthusiast"
+  ],
+  "futurePlans": [
+    "Become a Cybersecurity Architect",
+    "Build my own tech startup",
+    "Advance deep into Red Teaming",
+    "Master Cloud Security",
+    "Publish technical security research"
+  ],
+  "profileImage": "/profile.jpeg"
+}

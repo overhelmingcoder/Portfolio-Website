@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Certified Google Cybersecurity Professional",
+    "year": "2024",
+    "organization": "Google",
+    "description": "Successfully completed the Google Cybersecurity Professional Certificate, gaining hands-on skills in SIEM tools, threat detection, vulnerability assessment, incident response, and security best practices.",
+    "image": "/ggl_cybersecurity_certificate.jpg"
+  },
+  {
+    "title": "Engineering Design & Analysis with MATLAB Certification",
+    "year": "2025",
+    "organization": "ICT Division & CUET (IICT)",
+    "description": "Completed an intensive 80-hour training on Engineering Design & Analysis with MATLAB under the EDGE Project. Developed hands-on expertise in numerical computation, simulation, data analysis, modeling, and engineering problem-solving using MATLAB.",
+    "image": "/eng_design_certificate.jpg"
+  },
+  {
+    "title": "Top 10 in University CTF",
+    "year": "2023",
+    "organization": "University Cybersecurity Competition",
+    "description": "Ranked in the top 10 across the university in Capture The Flag competition, demonstrating expertise in penetration testing, cryptography, and vulnerability exploitation.",
+    "image": "/ctf_1.jpeg"
+  },
+  {
+    "title": "Built 10+ Technical Projects",
+    "year": "2024",
+    "organization": "Portfolio",
+    "description": "Developed 10+ diverse technical projects spanning cybersecurity, web development, IoT, and machine learning, each pushing technical boundaries and exploring new technologies.",
+    "image": "/smart_home.jpg"
+  },
+  {
+    "title": "TryHackMe Advanced Learner — 100+ Rooms Completed",
+    "year": "2024",
+    "organization": "TryHackMe",
+    "description": "Completed over 100 hands-on cybersecurity rooms covering penetration testing, SOC analysis, network security, Linux fundamentals, and real-world attack simulations.",
+    "image": "/rooms.jpg"
+  },
+  {
+    "title": "Departmental Electronics Project Competition Top 3",
+    "year": "2024",
+    "organization": "Departmental Electronics Project Competition",
+    "description": "Placed top 3 in the departmental electronics project competition, showcasing hardware design, embedded systems, sensor integration, PCB prototyping, and successful demonstration of a functional prototype.",
+    "image": "/top3.jpg"
+  }
+]

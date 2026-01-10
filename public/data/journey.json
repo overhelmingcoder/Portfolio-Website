@@ -1,0 +1,37 @@
+[
+  {
+    "year": "2020",
+    "event": "Started BSc in Electronics & Communication Engineering",
+    "image": "/cuet.jpg"
+  },
+  {
+    "year": "2021",
+    "event": "Built my first Arduino project: Smart Home Security System",
+    "image": "/smart_home.jpg"
+  },
+  {
+    "year": "2022",
+    "event": "Started learning Cybersecurity + joined CTFs",
+    "image": "/cybersecurity.jpeg"
+  },
+  {
+    "year": "2023",
+    "event": "Completed 5+ CTFs and improved Python skills",
+    "image": "/ctf_1.jpeg"
+  },
+  {
+    "year": "2024",
+    "event": "Participated in NASA SpaceApps + built multiple projects",
+    "image": "/nasa.jpeg"
+  },
+  {
+    "year": "2025",
+    "event": "Completed 80-hour Engineering Design & Analysis with MATLAB training (EDGE Project)",
+    "image": "/eng_design_certificate.jpg"
+  },
+  {
+    "year": "2025",
+    "event": "Completed Google Cybersecurity Professional Certificate + hands-on security labs",
+    "image": "/ggl_cybersecurity_certificate.jpg"
+  }
+]

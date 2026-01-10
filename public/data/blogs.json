@@ -1,0 +1,42 @@
+[
+  {
+    "id": "blog-1",
+    "title": "My First CTF Journey — Lessons I Learned",
+    "date": "2024-01-15",
+    "image": "/ctf_1.jpeg",
+    "excerpt": "CTFs taught me to think differently. Every challenge felt like peeling layers of a mystery...",
+    "content": "CTFs taught me to think differently. Every challenge felt like peeling layers of a mystery. The thrill of finding that one vulnerability, exploiting it, and capturing the flag is unmatched. I learned persistence, creative problem-solving, and the importance of understanding systems deeply. Each CTF competition pushed me to learn new tools, attack vectors, and defensive mechanisms. It wasn't just about winning; it was about the journey and the knowledge gained along the way."
+  },
+  {
+    "id": "blog-2",
+    "title": "How I Built My First Vulnerability Scanner",
+    "date": "2024-02-10",
+    "image": "/vulnaribilty.png",
+    "excerpt": "Building a vuln scanner gave me deep insight into how attackers fingerprint systems...",
+    "content": "Building a vulnerability scanner gave me deep insight into how attackers fingerprint systems. I started with simple port scanning using Nmap, then added service detection and common misconfiguration checks. The real learning came from understanding network protocols, service behaviors, and security weaknesses. By building this tool, I learned how to think like an attacker while understanding the defender's perspective. It's a project I continuously improve and use in my penetration testing practice."
+  },
+  {
+    "id": "blog-3",
+    "title": "My Experience in NASA SpaceApps Challenge",
+    "date": "2024-05-05",
+    "image": "/nasa.jpeg",
+    "excerpt": "Working on global problems with a team of passionate builders was thrilling...",
+    "content": "Working on global problems with a team of passionate builders was thrilling. The NASA SpaceApps Challenge pushed us to think beyond Earth, to solve real-world problems using space technology and data. Our team developed a solution that leveraged satellite data for climate monitoring. The collaborative energy, the mentorship from industry professionals, and the exposure to cutting-edge technology made it an unforgettable experience."
+  },
+  {
+    "id": "blog-4",
+    "title": "Why Every Engineer Should Learn Cybersecurity",
+    "date": "2024-06-12",
+    "image": "/cybersecurity.jpeg",
+    "excerpt": "Cybersecurity is not optional anymore. Here's why every engineer needs it...",
+    "content": "Cybersecurity is not optional anymore. In our interconnected world, every system is a target. As engineers, we build the infrastructure that society depends on. Understanding security principles isn't just about defense; it's about building responsible, resilient systems. From secure coding practices to threat modeling, cybersecurity knowledge makes us better engineers. It forces us to think about edge cases, attack vectors, and failure modes—critical thinking skills that benefit all engineering domains."
+  },
+  {
+    "id": "blog-5",
+    "title": "My 10 Projects That Changed My Skills",
+    "date": "2024-08-01",
+    "image": "/skills.png",
+    "excerpt": "Each project I built upgraded my skills. Here are the biggest lessons...",
+    "content": "Each project I built upgraded my skills. Here are the biggest lessons: robotics taught me hardware thinking, CTFs taught me security mindset, web development taught me full-stack thinking, and machine learning taught me data thinking. The progression wasn't linear—it was spiral, with each project reinforcing and expanding previous knowledge. Building diverse projects forced me to learn new languages, frameworks, and problem-solving approaches. The compounding effect has made me a more versatile and resourceful engineer."
+  }
+]

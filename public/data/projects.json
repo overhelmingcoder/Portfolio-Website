@@ -1,0 +1,74 @@
+[
+  {
+    "title": "ProgressNest",
+    "category": "Full-Stack Web App",
+    "description": "A full-stack platform for learners to track progress, share resources, and engage with a community. Features dashboards, achievements, blogging, and a secure Django backend with SQLite integration.",
+    "tech": ["HTML", "CSS", "JavaScript", "Django", "SQLite"],
+    "image": "/PROGRS.jpg",
+    "github": "https://github.com/demo/progressnest"
+  },
+  {
+    "title": "Smart Home Security System",
+    "category": "IoT & Safety",
+    "description": "An Arduino-based smart home system with gas and IR sensors for entry counting, leak detection, smoke alerts, secure vault access, day-night sensing, and automatic lighting for enhanced safety.",
+    "tech": ["Arduino", "Gas Sensor", "IR Sensor", "C"],
+    "image": "/smart_home.jpg",
+    "github": "https://github.com/demo/smart-home-security"
+  },
+  {
+    "title": "NEXORAA",
+    "category": "Web App / AI",
+    "description": "NEXORAA is a weather and travel assistant powered by AI. It provides real-time forecasts, interactive maps, air quality monitoring, and personalized travel recommendations with seamless deployment on Vercel.",
+    "tech": ["Next.js 14", "Tailwind CSS", "NASA API"],
+    "image": "/NEXORA.jpg",
+    "github": "https://github.com/overhelmingcoder/TripEase"
+  },
+  {
+    "title": "Vulnerability Scanner CLI",
+    "category": "Pentesting",
+    "description": "A Python-based CLI tool that scans for misconfigurations, outdated services, and weak controls using Nmap, Regex, and OSINT. Designed for pentesting and quick security assessments.",
+    "tech": ["Python", "Nmap", "Regex", "OSINT"],
+    "image": "/VLN_SCAN.jpg",
+    "github": "https://github.com/demo/vuln-scanner"
+  },
+  {
+    "title": "CTF Web Exploitation Series",
+    "category": "Pentesting",
+    "description": "A curated set of solved CTF web challenges focused on SQL injection, XSS, and bypass techniques. Uses Burp Suite, JavaScript, and SQL for hands-on pentesting practice.",
+    "tech": ["Burp Suite", "JavaScript", "SQL"],
+    "image": "/ctf.png",
+    "github": "https://github.com/demo/ctf-web"
+  },
+  {
+    "title": "Personal Portfolio Website",
+    "category": "Web Development",
+    "description": "A responsive personal portfolio website built with React and Tailwind CSS. Showcases projects, blogs, achievements, and skills with a modern design and smooth user experience.",
+    "tech": ["React", "Tailwind CSS", "JavaScript"],
+    "image": "/PORTFLIO.jpg",
+    "github": "https://github.com/demo/portfolio-website"
+  },
+  {
+    "title": "Smart Health Tracker",
+    "category": "Machine Learning",
+    "description": "A health monitoring system that predicts anomalies using machine learning classification. Built with Django and Scikit-learn, it visualizes patient metrics and supports early detection.",
+    "tech": ["Python", "Scikit-learn", "Django"],
+    "image": "/placeholder.jpg",
+    "github": "https://github.com/demo/health-ml"
+  },
+  {
+    "title": "Robotic Line Follower v2",
+    "category": "Robotics",
+    "description": "An upgraded line-following robot with PID tuning and optimized IR sensor feedback. Built using Arduino and C, it improves navigation accuracy and sensor responsiveness.",
+    "tech": ["Arduino", "Sensors", "C"],
+    "image": "/placeholder.jpg",
+    "github": "https://github.com/demo/robot"
+  },
+  {
+    "title": "Bit Combinational Locker",
+    "category": "Hardware Security",
+    "description": "A relay and IC-based combinational logic locker that ensures tamper-resistant access control. Implements bitwise logic for secure locking with minimal circuitry and reliable hardware design.",
+    "tech": ["Relay", "Logic ICs", "Circuit Design"],
+    "image": "/placeholder.jpg",
+    "github": "https://github.com/demo/bit-locker"
+  }
+]
