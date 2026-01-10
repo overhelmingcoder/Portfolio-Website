@@ -11,6 +11,11 @@ export const metadata = {
 export default async function JourneyPage() {
   const journey = await loadJSON('journey.json')
 
+  // Ensure journey is an array
+  if (!Array.isArray(journey)) {
+    throw new Error('Journey data must be an array')
+  }
+
   return (
     <main className="min-h-screen bg-background text-foreground">
       <Navbar />
