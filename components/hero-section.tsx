@@ -79,20 +79,20 @@ export function HeroSection({ name, title, tagline, description, profileImage }:
           variants={itemVariants}
           className="flex justify-center"
         >
-          <div className="relative w-80 h-80 flex items-center justify-center">
+          <div className="relative w-96 h-96 flex items-center justify-center">
             {/* Floating background circles */}
             <div className="absolute inset-0 rounded-full border-2 border-primary/30" />
-            <div className="absolute inset-12 rounded-full border border-secondary/20 animate-float-up" />
+            <div className="absolute inset-16 rounded-full border border-secondary/20 animate-float-up" />
             
             {/* Profile image container */}
-            <div className="relative w-72 h-72 rounded-full overflow-hidden neon-glow border-2 border-primary/50 animate-float-up shadow-2xl">
+            <div className="relative w-96 h-96 rounded-full overflow-hidden neon-glow border-2 border-primary/50 animate-float-up shadow-2xl">
               <Image
                 src={profileImage || "/placeholder.svg"}
                 alt={name}
                 fill
                 className="object-cover"
                 priority
-                sizes="(max-width: 768px) 100px, 288px"
+                sizes="(max-width: 768px) 100px, 384px"
               />
             </div>
           </div>
