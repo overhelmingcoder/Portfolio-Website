@@ -57,7 +57,7 @@ export function ContactForm() {
           onChange={handleChange}
           required
           className="w-full px-4 py-3 bg-card border border-primary/30 rounded-lg text-foreground placeholder-muted-foreground focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary/50 transition-all"
-          placeholder="Mahathir"
+          placeholder="Your Name"
         />
       </motion.div>
 

@@ -38,7 +38,7 @@ export function Footer() {
             <h3 className="text-lg font-bold neon-text mb-4">Connect</h3>
             <div className="flex gap-4">
               <a
-                href="mailto:mahathir@example.com"
+                href="mailto:mahathir.khandaker.mk@gmail.com"
                 className="p-2 rounded-lg bg-primary/10 hover:bg-primary/20 text-primary transition-colors neon-border"
                 aria-label="Email"
                 target="_blank"
@@ -56,7 +56,7 @@ export function Footer() {
                 <Linkedin size={20} />
               </a>
               <a
-                href="https://github.com/mahathir-khandaker"
+                href="https://github.com/overhelmingcoder"
                 className="p-2 rounded-lg bg-primary/10 hover:bg-primary/20 text-primary transition-colors neon-border"
                 aria-label="GitHub"
                 target="_blank"

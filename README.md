@@ -30,7 +30,7 @@ Quick start (development)
 1. Clone the repo (if not already on your machine):
 
 ```pwsh
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
+git clone https://github.com/overhelmingcoder/portfolio.git
 cd "c:\Users\Hp 840 G5\Desktop\portfolio"
 ```
 
