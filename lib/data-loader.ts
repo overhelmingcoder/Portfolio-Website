@@ -37,9 +37,3 @@ export async function loadJSON(filename: string) {
     return null
   }
 }
-  })
-  if (!response.ok) {
-    throw new Error(`Failed to load ${path}`)
-  }
-  return response.json()
-}

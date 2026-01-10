@@ -1,23 +1,41 @@
+import fs from 'fs'
+import path from 'path'
+
 export async function GET() {
-  const cvUrl = '/cv.pdf'
-  
   try {
-    const response = await fetch(new URL(cvUrl, process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000'))
+    // Check for CV in public folder
+    const cvPath = path.join(process.cwd(), 'public', 'cv.pdf')
     
-    if (!response.ok) {
-      return new Response('CV not found', { status: 404 })
+    if (!fs.existsSync(cvPath)) {
+      return new Response(
+        JSON.stringify({ 
+          error: 'CV file not found',
+          message: 'Please place cv.pdf in the public folder'
+        }), 
+        { 
+          status: 404,
+          headers: { 'Content-Type': 'application/json' }
+        }
+      )
     }
 
-    const buffer = await response.arrayBuffer()
+    const fileBuffer = fs.readFileSync(cvPath)
     
-    return new Response(buffer, {
+    return new Response(fileBuffer, {
       headers: {
         'Content-Type': 'application/pdf',
         'Content-Disposition': 'attachment; filename="Mahathir-Khandaker-CV.pdf"',
-        'Cache-Control': 'no-cache, no-store, must-revalidate',
+        'Cache-Control': 'public, max-age=3600',
       },
     })
   } catch (error) {
-    return new Response('Error downloading CV', { status: 500 })
+    console.error('CV download error:', error)
+    return new Response(
+      JSON.stringify({ error: 'Internal server error' }),
+      { 
+        status: 500,
+        headers: { 'Content-Type': 'application/json' }
+      }
+    )
   }
 }

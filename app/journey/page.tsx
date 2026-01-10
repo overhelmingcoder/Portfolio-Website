@@ -1,17 +1,12 @@
+import { loadJSON } from '@/lib/data-loader'
 import { Navbar } from '@/components/navbar'
 import { Footer } from '@/components/footer'
 import { TimelineItem } from '@/components/timeline-item'
-import { loadJSON } from '@/lib/data-loader'
 
 export const metadata = {
   title: 'My Journey | Mahathir Khandaker',
   description: 'Timeline of my learning journey in electronics, cybersecurity, and engineering',
 }
-
-import { loadJSON } from '@/lib/data-loader'
-import { Navbar } from '@/components/navbar'
-import { Footer } from '@/components/footer'
-import { TimelineItem } from '@/components/timeline-item'
 
 export default async function JourneyPage() {
   const journey = await loadJSON('journey.json')
