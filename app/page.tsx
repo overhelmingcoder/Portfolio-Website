@@ -11,6 +11,13 @@ export default async function Home() {
   const achievements = await loadJSON('achievements.json')
   const blogs = await loadJSON('blogs.json')
 
+  // Sort blogs by ID in ascending order (blog-1, blog-2, etc.)
+  const sortedBlogs = blogs.sort((a: any, b: any) => {
+    const aId = parseInt(a.id.split('-')[1])
+    const bId = parseInt(b.id.split('-')[1])
+    return aId - bId
+  })
+
   return (
     <main className="min-h-screen bg-background text-foreground">
       <Navbar />
@@ -27,7 +34,7 @@ export default async function Home() {
         futurePlans={home.futurePlans}
       />
       <FeaturedAchievements achievements={achievements} />
-      <FeaturedBlogs blogs={blogs} />
+      <FeaturedBlogs blogs={sortedBlogs} />
       <Footer />
     </main>
   )

@@ -13,7 +13,13 @@ export default function BlogPage() {
     const fetchBlogs = async () => {
       const response = await fetch('/data/blogs.json')
       const data = await response.json()
-      setBlogs(data)
+      // Sort blogs by ID in ascending order (blog-1, blog-2, etc.)
+      const sortedBlogs = data.sort((a: any, b: any) => {
+        const aId = parseInt(a.id.split('-')[1])
+        const bId = parseInt(b.id.split('-')[1])
+        return aId - bId
+      })
+      setBlogs(sortedBlogs)
     }
     fetchBlogs()
   }, [])

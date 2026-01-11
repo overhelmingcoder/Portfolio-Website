@@ -4,10 +4,10 @@ import { NextRequest } from 'next/server'
 
 export async function GET(
   request: NextRequest,
-  { params }: { params: { filename: string } }
+  { params }: { params: Promise<{ filename: string }> }
 ) {
   try {
-    const filename = params.filename
+    const { filename } = await params
     const filePath = path.join(process.cwd(), 'public', 'data', filename)
 
     // Check if file exists
