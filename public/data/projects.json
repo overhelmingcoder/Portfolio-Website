@@ -31,44 +31,32 @@
     "image": "/VLN_SCAN.jpg",
     "github": "https://github.com/demo/vuln-scanner"
   },
-  {
-    "title": "CTF Web Exploitation Series",
-    "category": "Pentesting",
-    "description": "A curated set of solved CTF web challenges focused on SQL injection, XSS, and bypass techniques. Uses Burp Suite, JavaScript, and SQL for hands-on pentesting practice.",
-    "tech": ["Burp Suite", "JavaScript", "SQL"],
-    "image": "/ctf.png",
-    "github": "https://github.com/demo/ctf-web"
-  },
+
   {
     "title": "Personal Portfolio Website",
     "category": "Web Development",
     "description": "A responsive personal portfolio website built with React and Tailwind CSS. Showcases projects, blogs, achievements, and skills with a modern design and smooth user experience.",
     "tech": ["React", "Tailwind CSS", "JavaScript"],
-    "image": "/PORTFLIO.jpg",
+    "image": "/portfolio.png",
     "github": "https://github.com/overhelmingcoder/Portfolio-Website"
   },
   {
-    "title": "Smart Health Tracker",
-    "category": "Machine Learning",
-    "description": "A health monitoring system that predicts anomalies using machine learning classification. Built with Django and Scikit-learn, it visualizes patient metrics and supports early detection.",
-    "tech": ["Python", "Scikit-learn", "Django"],
-    "image": "/placeholder.jpg",
-    "github": "https://github.com/demo/health-ml"
+  "title": "Obstacle Avoiding Robot v2",
+  "category": "Robotics",
+  "description": "An advanced obstacle-avoiding robot powered by Arduino, integrating ultrasonic sensors for distance measurement, L298 motor controller for precise motor driving, and a servo motor for dynamic sensor rotation. Designed to detect and avoid obstacles in real-time, ensuring smooth autonomous navigation.",
+  "tech": ["Arduino", "Ultrasonic Sensor", "L298 Motor Controller", "Servo Motor", "C"],
+  "image": "/obstacle_avoid.png",
+  "github": "https://github.com/demo/robot"
   },
   {
-    "title": "Robotic Line Follower v2",
-    "category": "Robotics",
-    "description": "An upgraded line-following robot with PID tuning and optimized IR sensor feedback. Built using Arduino and C, it improves navigation accuracy and sensor responsiveness.",
-    "tech": ["Arduino", "Sensors", "C"],
-    "image": "/placeholder.jpg",
-    "github": "https://github.com/demo/robot"
-  },
-  {
-    "title": "Bit Combinational Locker",
-    "category": "Hardware Security",
-    "description": "A relay and IC-based combinational logic locker that ensures tamper-resistant access control. Implements bitwise logic for secure locking with minimal circuitry and reliable hardware design.",
-    "tech": ["Relay", "Logic ICs", "Circuit Design"],
-    "image": "/placeholder.jpg",
-    "github": "https://github.com/demo/bit-locker"
+  "title": "Automatic Smoke & Gas Leakage Detection Circuit",
+  "category": "Safety & Automation",
+  "description": "A safety-focused circuit designed to detect smoke and harmful gas leakage using the MQ2 sensor. The system triggers a buzzer alarm for immediate warning and activates a DC 5V exhaust fan via a transistor-driven relay, ensuring rapid ventilation and hazard mitigation. Built with simple yet reliable components for effective real-time protection.",
+  "tech": ["MQ2 Gas Sensor", "Buzzer", "Transistor", "5V Relay", "DC 5V Fan", "Circuit Design"],
+  "image": "/smoke.png",
+  "github": "https://github.com/demo/smoke-gas-detection"
   }
+
+
+ 
 ]
