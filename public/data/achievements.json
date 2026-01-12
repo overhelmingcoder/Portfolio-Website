@@ -1,7 +1,14 @@
 [
   {
+    "title": "TryHackMe Jr Penetration Tester Certificate",
+    "year": "2025",
+    "organization": "TryHackMe",
+    "description": "Completed TryHackMe Jr Penetration Tester Certificate with practical exploitation labs",
+    "image": "/pentester_cert.png"
+  },
+  {
     "title": "Certified Google Cybersecurity Professional",
-    "year": "2024",
+    "year": "2025",
     "organization": "Google",
     "description": "Successfully completed the Google Cybersecurity Professional Certificate, gaining hands-on skills in SIEM tools, threat detection, vulnerability assessment, incident response, and security best practices.",
     "image": "/ggl_cybersecurity_certificate.jpg"
@@ -14,11 +21,11 @@
     "image": "/eng_design_certificate.jpg"
   },
   {
-    "title": "Top 10 in University CTF",
-    "year": "2023",
-    "organization": "University Cybersecurity Competition",
-    "description": "Ranked in the top 10 across the university in Capture The Flag competition, demonstrating expertise in penetration testing, cryptography, and vulnerability exploitation.",
-    "image": "/ctf_1.jpeg"
+    "title": "Platinum League 1st at TryHackMe",
+    "year": "2025",
+    "organization": "TryHackMe",
+    "description": "Achieved 1st place in the Platinum League at TryHackMe, demonstrating advanced cybersecurity skills in penetration testing, cryptography, and vulnerability exploitation.",
+    "image": "/platinumBdg.png"
   },
   {
     "title": "Built 10+ Technical Projects",
