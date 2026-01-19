@@ -1,5 +1,14 @@
 [
   {
+  "title": "Real-Time Face Recognition, Object Detection and Counting",
+  "category": "Computer Vision Application",
+  "description": "A real-time computer vision application that uses webcam input to perform face recognition, object detection, and object counting. Built with OpenCV and deep learning techniques to analyze live video streams accurately and efficiently.",
+  "tech": ["Python", "OpenCV", "MobileNet SSD", "Haar Cascades", "NumPy"],
+  "image": "/computer_vision.png",
+  "github": "https://github.com/overhelmingcoder/Computer-Vision-Project-face-recognition-object-detection-and-object-counting-using-webcam-"
+  }
+   ,
+  {
     "title": "ProgressNest",
     "category": "Full-Stack Web App",
     "description": "A full-stack platform for learners to track progress, share resources, and engage with a community. Features dashboards, achievements, blogging, and a secure Django backend with SQLite integration.",
