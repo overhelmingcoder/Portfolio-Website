@@ -1,13 +1,29 @@
 [
   {
-  "title": "Real-Time Face Recognition, Object Detection and Counting",
-  "category": "Computer Vision Application",
-  "description": "A real-time computer vision application that uses webcam input to perform face recognition, object detection, and object counting. Built with OpenCV and deep learning techniques to analyze live video streams accurately and efficiently.",
-  "tech": ["Python", "OpenCV", "MobileNet SSD", "Haar Cascades", "NumPy"],
-  "image": "/vision.png",
-  "github": "https://github.com/overhelmingcoder/Computer-Vision-Project-face-recognition-object-detection-and-object-counting-using-webcam-"
-  }
-   ,
+    "title": "Real-Time Face Recognition, Object Detection and Counting",
+    "category": "Computer Vision Application",
+    "description": "A real-time computer vision application that uses webcam input to perform face recognition, object detection, and object counting. Built with OpenCV and deep learning techniques to analyze live video streams accurately and efficiently.",
+    "tech": ["Python", "OpenCV", "MobileNet SSD", "Haar Cascades", "NumPy"],
+    "image": "/vision.png",
+    "github": "https://github.com/overhelmingcoder/Computer-Vision-Project-face-recognition-object-detection-and-object-counting-using-webcam-"
+  },
+
+  {
+    "title": "Bluetooth Controlled Robot Car with Edge-AI Vision",
+    "category": "Embedded Systems & Robotics",
+    "description": "A distributed robotic system combining Arduino-based Bluetooth motor control with Raspberry Pi–powered real-time computer vision. The robot uses MobileNet SSD for object detection, streams annotated live video via Flask MJPEG, and demonstrates efficient separation of control and perception for edge-AI robotics applications.",
+    "tech": [
+      "Arduino UNO",
+      "Raspberry Pi 5",
+      "Python",      
+      "MobileNet SSD",
+      "Flask"
+     
+    ],
+    "image": "/car_prjct.png",
+    "github": "https://github.com/overhelmingcoder/Autonomus-Monitoring-Robot-Car"
+  },
+
   {
     "title": "ProgressNest",
     "category": "Full-Stack Web App",
@@ -32,6 +48,16 @@
     "image": "/NEXORA.jpg",
     "github": "https://github.com/overhelmingcoder/TripEase"
   },
+
+  {
+    "title": "Personal Portfolio Website",
+    "category": "Web Development",
+    "description": "A responsive personal portfolio website built with React and Tailwind CSS. Showcases projects, blogs, achievements, and skills with a modern design and smooth user experience.",
+    "tech": ["React", "Tailwind CSS", "JavaScript"],
+    "image": "/portfolio.png",
+    "github": "https://github.com/overhelmingcoder/Portfolio-Website"
+  },
+  
   {
     "title": "Vulnerability Scanner CLI",
     "category": "Pentesting",
@@ -42,30 +68,33 @@
   },
 
   {
-    "title": "Personal Portfolio Website",
-    "category": "Web Development",
-    "description": "A responsive personal portfolio website built with React and Tailwind CSS. Showcases projects, blogs, achievements, and skills with a modern design and smooth user experience.",
-    "tech": ["React", "Tailwind CSS", "JavaScript"],
-    "image": "/portfolio.png",
-    "github": "https://github.com/overhelmingcoder/Portfolio-Website"
+    "title": "Obstacle Avoiding Robot v2",
+    "category": "Robotics",
+    "description": "An advanced obstacle-avoiding robot powered by Arduino, integrating ultrasonic sensors for distance measurement, L298 motor controller for precise motor driving, and a servo motor for dynamic sensor rotation. Designed to detect and avoid obstacles in real-time, ensuring smooth autonomous navigation.",
+    "tech": [
+      "Arduino",
+      "Ultrasonic Sensor",
+      "L298 Motor Controller",
+      "Servo Motor",
+      "C"
+    ],
+    "image": "/obstacle_avoid.png",
+    "github": "https://github.com/demo/robot"
   },
   {
-  "title": "Obstacle Avoiding Robot v2",
-  "category": "Robotics",
-  "description": "An advanced obstacle-avoiding robot powered by Arduino, integrating ultrasonic sensors for distance measurement, L298 motor controller for precise motor driving, and a servo motor for dynamic sensor rotation. Designed to detect and avoid obstacles in real-time, ensuring smooth autonomous navigation.",
-  "tech": ["Arduino", "Ultrasonic Sensor", "L298 Motor Controller", "Servo Motor", "C"],
-  "image": "/obstacle_avoid.png",
-  "github": "https://github.com/demo/robot"
-  },
-  {
-  "title": "Automatic Smoke & Gas Leakage Detection Circuit",
-  "category": "Safety & Automation",
-  "description": "A safety-focused circuit designed to detect smoke and harmful gas leakage using the MQ2 sensor. The system triggers a buzzer alarm for immediate warning and activates a DC 5V exhaust fan via a transistor-driven relay, ensuring rapid ventilation and hazard mitigation. Built with simple yet reliable components for effective real-time protection.",
-  "tech": ["MQ2 Gas Sensor", "Buzzer", "Transistor", "5V Relay", "DC 5V Fan", "Circuit Design"],
-  "image": "/smoke.png",
-  "github": "https://github.com/demo/smoke-gas-detection"
+    "title": "Automatic Smoke & Gas Leakage Detection and Exhaustion ",
+    "category": "Safety & Automation",
+    "description": "A safety-focused circuit designed to detect smoke and harmful gas leakage using the MQ2 sensor. The system triggers a buzzer alarm for immediate warning and activates a DC 5V exhaust fan via a transistor-driven relay, ensuring rapid ventilation and hazard mitigation. Built with simple yet reliable components for effective real-time protection.",
+    "tech": [
+      "MQ2 Gas Sensor",
+      "Buzzer",
+      "Transistor",
+      "5V Relay",
+      "DC 5V Fan",
+      "Circuit Design"
+    ],
+    "image": "/gas.jpg",
+    "github": "https://github.com/demo/smoke-gas-detection"
   }
 
-
- 
 ]
