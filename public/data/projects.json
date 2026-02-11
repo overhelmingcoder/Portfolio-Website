@@ -30,7 +30,7 @@
     "description": "A full-stack platform for learners to track progress, share resources, and engage with a community. Features dashboards, achievements, blogging, and a secure Django backend with SQLite integration.",
     "tech": ["HTML", "CSS", "JavaScript", "Django", "SQLite"],
     "image": "/PROGRS.jpg",
-    "github": "https://github.com/demo/progressnest"
+    "github": "https://github.com/overhelmingcoder/ProgressNest"
   },
   {
     "title": "Smart Home Security System",
