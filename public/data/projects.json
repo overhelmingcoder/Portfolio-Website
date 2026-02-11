@@ -4,7 +4,7 @@
     "category": "Computer Vision Application",
     "description": "A real-time computer vision application that uses webcam input to perform face recognition, object detection, and object counting. Built with OpenCV and deep learning techniques to analyze live video streams accurately and efficiently.",
     "tech": ["Python", "OpenCV", "MobileNet SSD", "Haar Cascades", "NumPy"],
-    "image": "/vision.png",
+    "image": "/face-rcog1.png",
     "github": "https://github.com/overhelmingcoder/Computer-Vision-Project-face-recognition-object-detection-and-object-counting-using-webcam-"
   },
 
@@ -20,7 +20,7 @@
       "Flask"
      
     ],
-    "image": "/car_prjct.png",
+    "image": "/car-prjct1.png",
     "github": "https://github.com/overhelmingcoder/Autonomus-Monitoring-Robot-Car"
   },
 
