@@ -38,6 +38,11 @@
     "year": "2025",
     "event": "Completed TryHackMe Jr Penetration Tester Certificate + practical exploitation labs",
     "image": "/pentester_cert.png"
+  },
+    {
+    "year": "2026",
+    "event": "Completed TryHackMe SOC L1 Certificate + practical defensive labs",
+    "image": "/socL1.png"
   }
 
 ]
